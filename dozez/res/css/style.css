@@ -33,7 +33,7 @@ html {
 
 body {
 	background: #0071bc;
-	background-image: url("../bg.png");
+	background-image: url("../img/bg.png");
 	background-attachment: fixed;
 	color: #fff;
 	text-shadow: 0 1px 0 #444;
@@ -155,15 +155,16 @@ dfn {
 /* Bottone per i valori di riferimeto */
 
 #refer {
-	position: fixed;
-	top: 10%;
-	right: 10%;
+	/*position: fixed;
+	top: 7vh;
+	right: 50px;*/
+	text-align: center;
 }
 
 #refer section {
 	width: 320px;
 	display: inline-block;
-	text-align: center;
+
 }
 
 #refer input {
