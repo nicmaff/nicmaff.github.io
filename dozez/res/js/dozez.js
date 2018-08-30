@@ -47,7 +47,7 @@ $(document).ready(function(){
 		
 		$("#refer").removeClass("display-none"); //mostra lo switch dei valori di riferimento appena si digita il peso
 		$("input#checkbox1").prop('checked', false); //resetta lo switch quando si modifica un peso già inserito
-    $("dfn").removeClass("display-inline");
+    $("dfn").removeClass("display-inline"); //ridondanza necessaria per eliminare i val di rif degli anest locali quando si modifica il peso già inserito
   }); //keyup sul peso
     $("#remi").keyup(function(){
       $("#ultiva").html(
