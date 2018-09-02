@@ -82,11 +82,13 @@ input#age {
 	border-radius: 50%;
 	border: 5px solid #fff;
 	background: transparent;
+	text-shadow: 0 1px 0 #444;
+	box-shadow: 0 1px 0 #444;
 }
 
 input#age::placeholder {
 	color: #fff;
-	opacity: 1;
+	opacity: 0.9;
 }
 
 input#remi {
@@ -174,14 +176,14 @@ dfn {
 }
 
 #refer label {
-	width: 7vw;
-	height: 3.5vw;
+	width: 10vw;
+	height: 5vw;
 	cursor: pointer;
 	display: inline-block;
 	position: relative;
 	background: rgb(189, 189, 189);
-	border-radius: 3.5vw;
-	box-shadow: inset 0 2px 0 rgba(0,0,0,.2), 0 2px 0 rgba(255, 255, 255, .7);
+	border-radius: 5vw;
+	box-shadow: inset 0 2px 0 rgba(0,0,0,.2)/*, 0 2px 0 rgba(255, 255, 255, .7)*/;
 	transition: background-color 0.4s;
 	-moz-transition: background-color 0.4s;
 	-webkit-transition: background-color 0.4s;
@@ -189,9 +191,9 @@ dfn {
 
 #refer label:after {
 	left: 0;
-	width: 2.5vw;
-	height: 2.5vw;
-	margin: 0.5vw;
+	width: 4vw;
+	height: 4vw;
+	margin: 0.6vw;
 	content: '';
 	position: absolute;
 	background: #FFF;
@@ -199,7 +201,8 @@ dfn {
 }
 
 #refer input:checked+label {
-	background: rgb(39, 173, 95);
+	/*background: rgb(39, 173, 95);*/
+	background: #008df9;
 }
 
 #refer input:checked+label:after {
@@ -219,7 +222,7 @@ dfn {
 }
 
 #refer p {
-	font-size: 1vw;
+	font-size: 1.5vw;
 	margin: 0;
 	padding: 0;
 	text-transform: uppercase;
